@@ -2,7 +2,9 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   color: #fff;
-  background: black url('https://www.transparenttextures.com/patterns/stardust.png');
+  background: #8B0000 url('https://www.transparenttextures.com/patterns/stardust.png');
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 header {
