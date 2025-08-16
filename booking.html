@@ -1,1 +1,47 @@
-booking.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Appointment | Silk & Syringe</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1 class="logo">✨ Silk & Syringe ✨</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="booking.html" class="active">Book</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Book Your Appointment</h2>
+    <form class="booking-form">
+      <label>Name: <input type="text" name="name" required></label>
+      <label>Email: <input type="email" name="email" required></label>
+      <label>Phone: <input type="tel" name="phone" required></label>
+      <label>Service:
+        <select name="service" required>
+          <option value="">Select a service</option>
+          <option>Needleless Filler</option>
+          <option>Needle Filler</option>
+          <option>Body Filler</option>
+          <option>Lipo Dissolve</option>
+        </select>
+      </label>
+      <label>Date: <input type="date" name="date" required></label>
+      <label>Notes: <textarea name="notes"></textarea></label>
+      <button type="submit" class="btn">Submit Booking</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Silk & Syringe | Beauty Lab | Call: 346-243-0151</p>
+  </footer>
+</body>
+</html>
+
