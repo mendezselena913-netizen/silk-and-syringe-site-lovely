@@ -1,1 +1,101 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background: black url('https://www.transparenttextures.com/patterns/stardust.png');
+}
+
+header {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 1.8em;
+  margin: 0;
+}
+
+nav a {
+  color: #ffd6f9;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active {
+  border-bottom: 2px solid #ffd6f9;
+}
+
+.hero {
+  padding: 60px;
+  text-align: center;
+  background: linear-gradient(135deg, #ff6ec7, #a600ff);
+}
+
+.btn {
+  display: inline-block;
+  background: #ff6ec7;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #ff92d0;
+  transform: scale(1.05);
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.service {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+  text-align: center;
+}
+
+.booking-form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.gallery-item {
+  background: rgba(255, 255, 255, 0.1);
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
