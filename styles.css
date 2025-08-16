@@ -1,25 +1,18 @@
-/* GLOBAL sparkly red background */
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   color: #fff;
-  background-color: #8B0000 !important; /* deep red */
-  background-image: url('https://www.transparenttextures.com/patterns/stardust.png') !important;
-  background-size: cover !important;
-  background-attachment: fixed;
+  background: url("images/red-glitter.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
-/* HERO banner sparkly red (covers all hero variants) */
-.hero,
-.page-hero,
-.hero-sparkle {
+.hero {
   padding: 60px;
   text-align: center;
-  background-color: #8B0000 !important;
-  background-image: url('https://www.transparenttextures.com/patterns/stardust.png') !important;
-  background-size: cover !important;
-  background-attachment: fixed;
+  background: url("images/red-glitter.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
+
 
 
 .logo {
